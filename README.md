@@ -8,7 +8,6 @@ I performed data modeling, data engineering, and data analysis.
 ### Data Modeling 
 
 I inspected the CSv files and sketched out an Entity Relationship Diagram of the tables. ERDs provide a visual starting point for database design and help determine information system requirements.
-<img width="579" alt="Screenshot_20230130_063726" src="https://user-images.githubusercontent.com/85320743/215648444-345cab2b-b87c-4f11-a4f7-aa9d8a6329d9.png">
 
 <img width="646" alt="Screenshot_20230130_055647" src="https://user-images.githubusercontent.com/85320743/215646105-391578df-09de-4a51-89b1-3167c149bc28.png">
 
@@ -18,7 +17,10 @@ I created a table schema for each of the six CSV files and imported the files in
 
 <img width="498" alt="Screenshot_20230130_060601" src="https://user-images.githubusercontent.com/85320743/215646157-26be1c12-b7b2-44e5-bb90-320a56cac9de.png">
 
-### Data Analysis
+## Data Analysis
+
+### The queries for these questions are located in the file SQL_queries.
+
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
