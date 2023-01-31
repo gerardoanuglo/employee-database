@@ -8,6 +8,7 @@ I performed data modeling, data engineering, and data analysis.
 ### Data Modeling 
 
 I inspected the CSv files and sketched out an Entity Relationship Diagram of the tables. ERDs provide a visual starting point for database design and help determine information system requirements.
+<img width="579" alt="Screenshot_20230130_063726" src="https://user-images.githubusercontent.com/85320743/215648444-345cab2b-b87c-4f11-a4f7-aa9d8a6329d9.png">
 
 <img width="646" alt="Screenshot_20230130_055647" src="https://user-images.githubusercontent.com/85320743/215646105-391578df-09de-4a51-89b1-3167c149bc28.png">
 
@@ -20,24 +21,16 @@ I created a table schema for each of the six CSV files and imported the files in
 ### Data Analysis
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
-<img width="573" alt="Screenshot_20230130_062143" src="https://user-images.githubusercontent.com/85320743/215646250-538fdc44-bf8f-4d3e-9a8d-0ac99d63535e.png">
-
 2. List first name, last name, and hire date for employees who were hired in 1986.
-
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
-
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
-
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
 
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
