@@ -3,23 +3,24 @@
 ## Background
 It’s a beautiful spring day, and it’s been two weeks since I was hired as a new data engineer at Pewlett Hackard. My first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remains of the database of employees from that period are six CSV files.
 
-I will perform data modeling, data engineering, and data analysis.
-
-## Instructions: 
-
-I will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. 
+I performed data modeling, data engineering, and data analysis.
 
 ### Data Modeling 
 
-Inspect the CSVs and sketch out an ERD (Entity Relationship Diagram) of the tables. 
+I inspected the CSv files and sketched out an Entity Relationship Diagram of the tables. ERDs provide a visual starting point for database design and help determine information system requirements.
+
+<img width="646" alt="Screenshot_20230130_055647" src="https://user-images.githubusercontent.com/85320743/215646105-391578df-09de-4a51-89b1-3167c149bc28.png">
 
 ### Data Engineering
 
-Create a table schema for each of the six CSV files and import csv files into corresponding tables
+I created a table schema for each of the six CSV files and imported the files into their corresponding tables. The departments, employees, and titles tables have primary keys, they are values that uniquely identify each row in a table. The other three tables have composite keys, which takes two primary keys to uniquely identify a row. 
+
+<img width="498" alt="Screenshot_20230130_060601" src="https://user-images.githubusercontent.com/85320743/215646157-26be1c12-b7b2-44e5-bb90-320a56cac9de.png">
 
 ### Data Analysis
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
+<img width="573" alt="Screenshot_20230130_062143" src="https://user-images.githubusercontent.com/85320743/215646250-538fdc44-bf8f-4d3e-9a8d-0ac99d63535e.png">
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
